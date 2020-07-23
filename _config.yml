@@ -1,0 +1,36 @@
+# site settings
+title: Preben
+subtitle:  Hennemann
+email: preben.hennemann+moireflux@gmail.com
+description: and you my fellow traveller just landed on my Portfolio!
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://moireflux.digital # the base hostname & protocol for your site
+author: Preben Hennemann
+# street_address: Bismarckstraße 108
+city: Hansestadt Bremen
+state: HB
+zip_code: 28203
+country: Germany
+# phone: (716) 555-5555
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url: https://facebook.com/preben101100
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://instagram.com/moireflux1/
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
