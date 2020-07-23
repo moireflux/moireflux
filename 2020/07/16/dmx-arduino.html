@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Sending DMX with/over Arduino UNO/MEGA | Preben</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://moireflux.digital//" class="logo"><strong>Preben</strong><span>Hennemann</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- entfernt: <span>Hennemann</span> -->
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://moireflux.digital//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		        <li><a href="https://moireflux.digital/about.html">About</a></li>
+		    
+		
+		    
+		        <li><a href="https://moireflux.digital/all_posts.html">Projekte</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+	</ul>
+	<!-- <ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul> -->
+</nav>
+ 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Sending DMX with/over Arduino UNO/MEGA</h1>
+		</header>
+		<span class="image main"><img src="//assets/images/IMG5053.JPG" alt="" /></span>
+		<!-- ![photo not found](./img/IMG_5053.jpg) -->
+<p><span class="image right"><img src="/assets/images/IMG5053.JPG" alt="" /></span></p>
+
+<h4 id="introduction">Introduction</h4>
+<p>This project started with the intention to control the LED-Bar in my possession (ADJ UB 9H) with the hardware available to me. Which is an <em>Elegoo UNO R3</em>! BUT to get access into the DMX Protocol, there is an separate IC-Chip needed. Which has to be integrated in the Arduino main circuit as a so called “DMX-Shield”. The public-address light industry mostly uses the <em>MAX485</em> Chip. In my case I use an <em>SN75176BP</em> which has mostly the same structure and did absolute fine for this purpose so far.<br />
+it took me a while to find a working Code Example, I will link it here, after I found it again!</p>
+
+<p>::: tip Interested in an DMX-Protocol INTERFACE?
+My research so far suggested that you need to have an <strong>Arduino MEGA 2560</strong> due to its USB-Serial-Port, which is absolute necessary for this kind of connection. <em>I heard rumors this works with the first ever Arduino UNO Version too</em>
+:::</p>
+
+<h4 id="hardware">Hardware</h4>
+<ul>
+  <li>Elegoo UNO R3</li>
+  <li>Integrated Circuit: SN75176BP</li>
+  <li>DMX or XLR Cable with at least the <em>female XLR Plug</em></li>
+  <li><em>obviously</em> DMX-Receiver / Device to Test with</li>
+</ul>
+
+<h4 id="software">Software</h4>
+<ul>
+  <li><a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></li>
+</ul>
+
+<h4 id="code">Code</h4>
+<ul>
+  <li>Based on this <a href="https://42loop.hfbk-hamburg.de/garage/184">Code</a>
+    <h4 id="additional-instructions--information-external">Additional Instructions &amp; Information (external)</h4>
+  </li>
+  <li><a href="https://playground.arduino.cc/Learning/DMX/">General Arduino Thread regarding DMX512 with Arduino</a></li>
+  <li><a href="https://playground.arduino.cc/DMX/DMXShield/">Building an DMX Shield with the IC Chip for Arduino</a></li>
+</ul>
+
+	</div>
+</section>
+
+</div>
+
+    <!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/preben.hennemann+moireflux@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">preben.hennemann+moireflux@gmail.com</a>
+				</div>
+			</section>
+			<!-- <section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<span></span>
+				</div>
+			</section> -->
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Addresse</h3>
+					<span>
+					
+					
+					    Hansestadt Bremen,
+					
+					
+					    HB
+					
+					
+					    28203<br />
+					
+					
+					    Germany
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				
+				
+				<li><a href="https://facebook.com/preben101100" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				
+				
+				<li><a href="https://instagram.com/moireflux1/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Preben 2020</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+				<li><a href="Impressum.html">Impressum</a> </li>
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="https://moireflux.digital/assets/js/jquery.min.js"></script>
+	<script src="https://moireflux.digital/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://moireflux.digital/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://moireflux.digital/assets/js/skel.min.js"></script>
+	<script src="https://moireflux.digital/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://moireflux.digital/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://moireflux.digital/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
