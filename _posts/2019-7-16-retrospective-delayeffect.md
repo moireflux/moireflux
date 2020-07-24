@@ -2,7 +2,7 @@
 layout: post
 title: A Retroperspective on the Delay-Effect through Magnetic Tape (EN)
 description: ... observation of the Magnetic Tape ...
-image: assets/images/tape-delay-effect-installation-setup.jpg
+image: false
 ---
 
 <!-- ![photo not found](./img/tape-delay-effect-installation-setup.jpg) -->

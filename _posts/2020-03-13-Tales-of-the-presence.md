@@ -2,7 +2,7 @@
 layout: post
 title: Tales of the Presence
 description: entstanden im Kontext des Kurses "Opium"
-image: assets/images/tape-delay-effect-installation-setup.jpg
+image: false
 ---
 
 "Tales of the Presence" ist ein 1-minütiges Videoprojekt, entstanden im Kontext des Kurses "Opium" von Robert Porzel und Roland Kerstein an der Hochschule für Künste Bremen und Universität Bremen (2020)

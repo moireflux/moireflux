@@ -2,7 +2,7 @@
 layout: post
 title: Sending DMX with/over Arduino UNO/MEGA
 description: ... intention to control the LED-Bar in my possession ...
-image: assets/images/IMG5053.JPG
+image: false
 ---
 
 <!-- ![photo not found](./img/IMG_5053.jpg) -->
