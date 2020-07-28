@@ -6,7 +6,7 @@ image: false
 ---
 
 <!-- ![photo not found](./img/tape-delay-effect-installation-setup.jpg) -->
-<span class="image right"><img src="{% link assets/images/tape-delay-effect-installation-setup.jpg %}" alt="" /></span>
+<span class="image right"><img src="{% link assets/images/tape-delay-effect-installation-setup.jpg %}" alt="tape-delay-effect-installation-setup" /></span>
 
 On my Journey of the observation of the Magnetic Tape I discovered different Aspects of the Tape.
 What stood out for me was the impact of the Delay Effect on Music History. The Delay Effect got first properly used with two Reel-to-Reel-Tape-Machines in the 1940‘s & 1950’s.

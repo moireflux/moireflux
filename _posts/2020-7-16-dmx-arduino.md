@@ -6,7 +6,7 @@ image: false
 ---
 
 <!-- ![photo not found](./img/IMG_5053.jpg) -->
-<span class="image right"><img src="{% link assets/images/IMG5053.JPG %}" alt="" /></span>
+<span class="image right"><img src="{% link assets/images/IMG5053.JPG %}" alt="IMG5053.JPG" /></span>
 
 #### Introduction
 This project started with the intention to control the LED-Bar in my possession (ADJ UB 9H) with the hardware available to me. Which is an *Elegoo UNO R3*! BUT to get access into the DMX Protocol, there is an separate IC-Chip needed. Which has to be integrated in the Arduino main circuit as a so called "DMX-Shield". The public-address light industry mostly uses the *MAX485* Chip. In my case I use an *SN75176BP* which has mostly the same structure and did absolute fine for this purpose so far.  
