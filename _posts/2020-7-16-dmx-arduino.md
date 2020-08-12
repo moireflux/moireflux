@@ -28,6 +28,9 @@ My research so far suggested that you need to have an Arduino MEGA 2560 due to i
 
 #### Code
 * Based on this [Code](https://42loop.hfbk-hamburg.de/garage/184)
+
 #### Additional Instructions & Information (external)
 * [General Arduino Thread regarding DMX512 with Arduino](https://playground.arduino.cc/Learning/DMX/)
 * [Building an DMX Shield with the IC Chip for Arduino](https://playground.arduino.cc/DMX/DMXShield/)
+
+---
