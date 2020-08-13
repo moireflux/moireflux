@@ -14,7 +14,7 @@ show_tile: true
 <h1>About</h1>
 
 <h2>CV</h2>
-<h3>Bildung</h3>
+<h3>Education</h3>
 
 <!-- <hr class="major" /> breakline -->
 <div class="table-wrapper">
@@ -48,7 +48,7 @@ show_tile: true
 
 <h3>Engagement</h3>
 
-Nach erlangen meiner Hochschulreife habe ich mich übber den Bundesfreiwilligendiesnt im <a href="https://www.kulturbuerobremennord.de/">kulturbüro bremen nord</a> engagiert und war dort für ein Jahr in folgenden Bereichen tätig:
+Nach erlangen meiner Hochschulreife habe ich mich über den Bundesfreiwilligendiesnt im <a href="https://www.kulturbuerobremennord.de/">kulturbüro bremen nord</a> engagiert und war dort für ein Jahr in folgenden Bereichen tätig:
 <br>
 <ul>
   <li>Veranstaltungstechnik</li>
@@ -59,10 +59,10 @@ Nach erlangen meiner Hochschulreife habe ich mich übber den Bundesfreiwilligend
 
 <h3>Computer/Software</h3>
 <ul>
-  <li>Adobbe Suit, Native Instruments Traktor, Room Equalization Wizard</li>
+  <li>Adobe Suit, Native Instruments Traktor, Room Equalization Wizard</li>
   <li>macOS, Windows, Raspbian, Arduino</li>
 </ul>
-<h3>Aktivitäten</h3>
+<h3>Activities</h3>
 
 Lichttechnik, Raum Akustik und dessen Verbesserung, Sound System Management, Mediendesign
 
