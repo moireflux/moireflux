@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sending DMX with/over Arduino UNO/MEGA
+title: Sending DMX with/over Arduino UNO/MEGA (EN)
 description: ... intention to control the LED-Bar in my possession ...
 image: false
 ---
