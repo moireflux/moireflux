@@ -24,13 +24,13 @@ My research so far suggested that you need to have an Arduino MEGA 2560 due to i
 * *obviously* DMX-Receiver / Device to Test with
 
 #### Software
-* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software){:target="blank"}
 
 #### Code
-* Based on this [Code](https://42loop.hfbk-hamburg.de/garage/184)
+* Based on this [Code](https://42loop.hfbk-hamburg.de/garage/184){:target="blank"}
 
 #### Additional Instructions & Information (external)
-* [General Arduino Thread regarding DMX512 with Arduino](https://playground.arduino.cc/Learning/DMX/)
-* [Building an DMX Shield with the IC Chip for Arduino](https://playground.arduino.cc/DMX/DMXShield/)
+* [General Arduino Thread regarding DMX512 with Arduino](https://playground.arduino.cc/Learning/DMX/){:target="blank"}
+* [Building an DMX Shield with the IC Chip for Arduino](https://playground.arduino.cc/DMX/DMXShield/){:target="blank"}
 
 ---

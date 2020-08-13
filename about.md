@@ -48,7 +48,7 @@ show_tile: true
 
 <h3>Engagement</h3>
 
-Nach erlangen meiner Hochschulreife habe ich mich über den Bundesfreiwilligendiesnt im <a href="https://www.kulturbuerobremennord.de/">kulturbüro bremen nord</a> engagiert und war dort für ein Jahr in folgenden Bereichen tätig:
+Nach erlangen meiner Hochschulreife habe ich mich über den Bundesfreiwilligendiesnt im <a href="https://www.kulturbuerobremennord.de/" target="_blank">kulturbüro bremen nord</a> engagiert und war dort für ein Jahr in folgenden Bereichen tätig:
 <br>
 <ul>
   <li>Veranstaltungstechnik</li>
